@@ -1,6 +1,6 @@
-module Clock_divider(clk,cout1,cout2,cout3,cout4,cout5,cout6,cout7,cout8
+module divider(clk,cout1,cout2,cout3,cout4,cout5,cout6,cout7,cout8
     );
-input clk; // input clock on FPGA
+input wire clk; // input clock on FPGA
 output reg cout1; // output clock after dividing the input clock by divisor
 output reg cout2; // output clock after dividing the input clock by divisor
 output reg cout3;
